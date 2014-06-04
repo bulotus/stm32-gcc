@@ -1,4 +1,4 @@
-#define STACK_TOP 0x20000800
+#define STACK_TOP 0x20000800  //STACK TOP
 
 void nmi_handler(void);
 void hardfault_handler(void);
