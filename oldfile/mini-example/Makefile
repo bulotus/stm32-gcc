@@ -3,8 +3,8 @@ LD      = arm-none-eabi-ld -v
 CP      = arm-none-eabi-objcopy
 OD      = arm-none-eabi-objdump
   
-#CFLAGS  =  -I./ -c -fno-common -O0 -g -mcpu=cortex-m3 -mthumb 
-CFLAGS	= -I./ -c -fno-common -O0 -g -mcpu=arm7tdmi # test for arm and thumb 
+CFLAGS  =  -I./ -c -fno-common -O0 -g -mcpu=cortex-m3 -mthumb 
+#CFLAGS	= -I./ -c -fno-common -O0 -g -mcpu=arm7tdmi # test for arm and thumb 
 LFLAGS  = -Tstm32.ld -nostartfiles
 CPFLAGS = -Obinary
 ODFLAGS = -S
